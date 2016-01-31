@@ -1,0 +1,5 @@
+def printSomethin(s):
+    print(s)
+printSomethin('color')
+
+def

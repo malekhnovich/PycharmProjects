@@ -1,0 +1,26 @@
+def temperature(t):
+    #prints message based on temperature t
+    if(t>86):
+        print('it is hot')
+    elif(t>32):
+        print('It is cool')
+    else:
+        print('It is freezing')
+temperature(50)
+
+'''
+def print_lst_range(l):
+    for in l:
+        print i
+
+ABOVE METHOD IS PREFERRED WHEN YOU DONT NEED TO COMPARE INDEXES (ONE TO ANOTHER) BECAUSE IT IS MORE INTUTIVE
+
+BELOW(UNCOMMENTED) METHOD IS PREFERRED WHEN YOU DO WANT TO COMPARE ONE INDEX TO ANOTHER(INDEX i to INDEX i+1)
+'''
+
+def print_lst_Range(l):
+    for i in range(len(l)):
+        print(l[i])
+
+print_lst_Range(['dog','cat','moose'])
+
